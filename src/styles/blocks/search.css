@@ -14,10 +14,12 @@
   border-bottom: 1px solid transparent;
   width: 23px;
   transition: width 0.3s ease-in-out;
+  cursor: pointer;
 }
 .header__search:focus {
   width: 100px;
   border-color: currentColor;
+  cursor: text
 }
 .search-section {
   background-blend-mode: darken;
