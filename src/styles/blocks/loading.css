@@ -1,0 +1,33 @@
+.circular-loader {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+.circular-loader span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 6px;
+  background: #000;
+  transform-origin: center -5px; /* радиус круга — 5px */
+  transform: rotate(calc(var(--i) * 45deg));
+  border-radius: 1px;
+  animation: fade 0.8s linear infinite;
+  animation-delay: calc(var(--i) * 0.1s);
+  opacity: 0;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

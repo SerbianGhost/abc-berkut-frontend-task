@@ -1,0 +1,5 @@
+.container {
+  display: block;
+  width: clamp(21.25rem, 73.786vw + 3.956rem, 92.5rem);
+  margin: 0 auto;
+}

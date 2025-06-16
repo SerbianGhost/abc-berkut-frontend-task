@@ -1,0 +1,14 @@
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.like-icon path {
+  fill: white;
+  stroke: #000;
+  transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+}
+.is-liked path {
+  fill: #fff200;
+  stroke: none;
+}

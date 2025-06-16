@@ -1,0 +1,5 @@
+.favotites__title {
+  font-size: clamp(2.25rem, 2.33vw + 1.704rem, 4.5rem);
+  text-align: center;
+  font-weight: 700;
+}

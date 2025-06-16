@@ -1,0 +1,24 @@
+.header {
+  background-color: black;
+  padding: 20px 0 14px 0;
+  font-size: 18px;
+  color: white;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 1.25vw + 1rem, 2.5rem);
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: currentColor;
+}

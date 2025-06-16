@@ -1,0 +1,16 @@
+.user {
+  display: flex;
+  color: white;
+  gap: 10px;
+  font-size: 18px;
+}
+.user__name {
+  font-weight: 400;
+  font-size: clamp(1.125rem, 1.342vw + 0.264rem, 1.875rem);
+}
+.user__avatar {
+  width: clamp(3rem, 0.453vw + 2.894rem, 3.438rem);
+  height: clamp(3rem, 0.453vw + 2.894rem, 3.438rem);
+  border-radius: 8px;
+  overflow: hidden;
+}

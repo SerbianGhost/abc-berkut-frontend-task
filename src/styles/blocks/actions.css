@@ -1,0 +1,36 @@
+.actions {
+  display: flex;
+  align-items: stretch;
+  gap: clamp(1rem, 0.447vw + 0.713rem, 1.25rem);
+}
+.actions button {
+  border-radius: 8px;
+}
+.like {
+  width: clamp(2.5rem, 1.119vw + 1.783rem, 3.125rem);
+  height: clamp(2.5rem, 1.119vw + 1.783rem, 3.125rem);
+}
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: #fff200;
+  padding: 0 clamp(0.625rem, 1.119vw - 0.092rem, 1.25rem);
+}
+.download:hover {
+  color: white;
+}
+.full-screen-button {
+  position: absolute;
+  bottom: 33px;
+  right: 33px;
+  background-color: transparent;
+}
+.actions button {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+.actions button:hover {
+  background-color: black;
+  transition: background-color 0.3s ease-in-out,color 0.3s ease-in-out;
+}
